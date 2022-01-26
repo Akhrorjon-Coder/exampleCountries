@@ -32,9 +32,11 @@
     }
     .countries{
         display: grid;
-        padding: 20px;
+        /* padding: 20px; */
         grid-template-columns: repeat(1,1fr);
         grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
     }
     .country{
         width: 250px;
