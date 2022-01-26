@@ -1,0 +1,65 @@
+@media (min-width: 300px) and (max-width: 576px){
+    .container{
+        padding: 12px;
+        width: 100%;
+    }
+    .container h1{
+        font-size: 15px;
+    }
+    .toggle{
+        font-size: 13px;
+    }
+    .containerForm{
+        display: block;
+    }
+    .form-control{
+        width: 200px;
+    }
+    .form-control input{
+        padding: 12px 8px;
+    }
+    .form-control i{
+        top: 0.75rem;
+    }
+    .dropDownCon{
+        padding-top: 20px;
+    }
+    .dropDown{
+        padding: 12px 8px;
+    }
+    .drop{
+        top: 4.2rem;
+    }
+    .countries{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+    }
+    .country{
+        width: 250px;
+    }
+    .country-img{
+        height: 150px;
+    }
+    .back{
+        padding: 8px 12px;
+    }
+    .modal{
+        display: block;
+    }
+    .leftModal{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .rightModal{
+        width: 100%;
+        margin-left: 0;
+    }
+    .rightModal h1{
+        font-size: 25px;
+    }
+    .modalInfo{
+        display: block;
+    }
+}
